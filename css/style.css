@@ -291,3 +291,14 @@ a{
   }
 }
 
+/* numeros */
+
+.numeros__flex{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.numeros__imagen{
+  width: 20rem;
+}
