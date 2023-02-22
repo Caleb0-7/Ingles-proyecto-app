@@ -248,21 +248,21 @@ a{
   padding: 4rem
 }
 
-.materias__grid{
+.listado__grid{
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     row-gap: 3rem;
 }
 
 @media (min-width: 768px) {
-  .materias__grid{
+  .listado__grid{
     grid-template-rows: unset;
     grid-template-columns: repeat(2,1fr);
     gap: 10rem;
   }
 }
 
-.materias__asignatura{
+.listado__flex{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -270,35 +270,30 @@ a{
     padding: 3rem ;
     border: 1px solid var(--grisClaro);
     border-radius: 1rem;
-    box-shadow: 1px 1px 1.5rem var(--grisClaro);
+    box-shadow: 1px 1px 15px 10px var(--grisClaro);
     gap: 6rem;
 }
 
 
-.materias__imagen{
+.listado__imagen{
     width: 20rem;
 }
 
 
 @media (min-width: 768px) {
-  .materias__imagen{
-    width:20rem;
+  .listado__imagen{
+    width:24rem;
   }
 
-  .materias__parrafo{
+  .listado__parrafo{
     padding: 0  5rem
     ;
   }
 }
 
-/* numeros */
+/*Numeros*/
 
-.numeros__flex{
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.numeros__imagen{
-  width: 20rem;
+.numeros__heading{
+  text-align: center;
+  padding: 4rem 0;
 }
