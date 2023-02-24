@@ -298,7 +298,7 @@ a{
   padding: 4rem 0;
 }
 
-.listado__parrafo{
+.listado__parrafo--numeros{
   font-size:3rem;
   display: flex;
   flex-direction: column;
