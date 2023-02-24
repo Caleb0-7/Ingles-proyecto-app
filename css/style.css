@@ -297,3 +297,14 @@ a{
   text-align: center;
   padding: 4rem 0;
 }
+
+.listado__parrafo{
+  font-size:3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listado__parrafo--span{
+  font-size: 1.6rem;
+}
