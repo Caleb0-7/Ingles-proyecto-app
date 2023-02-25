@@ -38,12 +38,15 @@ body {
 
 /*Globales*/
 
-.contenedor {
+@media (min-width: 321px) {
+  .contenedor {
     max-width: 120rem;
     /*lo maximo que puede tomar es 1200 pixeles* pero si es menos va a tomar el 90%*/
     width: 90%;
     margin: 0 auto;
 }
+}
+
 
 h1,
 h2,
@@ -204,7 +207,7 @@ a{
     display: none;
   }
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 998px) {
     .header__boton {
       display: none;
     }
@@ -254,7 +257,7 @@ a{
     row-gap: 3rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 998px) {
   .listado__grid{
     grid-template-rows: unset;
     grid-template-columns: repeat(2,1fr);
@@ -267,7 +270,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3rem ;
+    padding: 3rem 2rem ;
     border: 1px solid var(--grisClaro);
     border-radius: 1rem;
     box-shadow: 1px 1px 15px 10px var(--grisClaro);
@@ -308,3 +311,11 @@ a{
 .listado__parrafo--span{
   font-size: 1.6rem;
 }
+
+.listado__contenido{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+
