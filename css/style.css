@@ -336,12 +336,56 @@ a{
 
 .alfabeto__heading{
   text-align: center;
+ 
 }
 
 .alfabeto__grid{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  padding: 3rem 0;
 }
+
+@media (min-width: 768px) {
+  .alfabeto__grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-self: center;
+    
+  
+  }
+
+  .alfabeto__contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+}
+
+.alfabeto__imagen{
+  width: 20rem;
+}
+@media (min-width: 768px){
+  .alfabeto__imagen{
+    width: 25rem;
+  }
+}
+.alfabeto__imagen{
+  display: grid;
+  place-self: center;
+}
+
+
+.alfabeto__contenido{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+}
+
 /*Numeros*/
 
 .numeros__heading{
