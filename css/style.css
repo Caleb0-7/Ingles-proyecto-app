@@ -84,6 +84,12 @@ a{
 
 }
 
+/* Utilidades */
+
+.margin-top5{
+  margin-top: 6rem;
+}
+
 .btn{
     color: var(--blanco) ;
     background-color: var(--primario);
@@ -219,8 +225,10 @@ a{
     .nav {
       position: static;
       margin-left: 0;
-      flex-basis: 30%;
+      flex-basis: 40%;
       height: 100%;
+      font-size: 1.7rem;
+
     }
   
     .nav__enlaces {
@@ -292,8 +300,29 @@ a{
     padding: 0  5rem
     ;
   }
+
+  .listado__flex--row{
+    flex-direction: row;
+  }
 }
 
+/* Alfabeto */
+
+.alfabeto{
+  padding: 3rem 2rem ;
+  border: 1px solid var(--grisClaro);
+  border-radius: 1rem;
+  box-shadow: 1px 1px 15px 10px var(--grisClaro);
+}
+
+.alfabeto__heading{
+  text-align: center;
+}
+
+.alfabeto__grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
 /*Numeros*/
 
 .numeros__heading{
@@ -318,8 +347,6 @@ a{
   gap: 3rem;
 }
 
-.listado__audio{
-  width: 20rem;
-}
+
 
 
