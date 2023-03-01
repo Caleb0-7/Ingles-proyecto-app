@@ -304,7 +304,49 @@ a{
     gap: 6rem;
 }
 
+.listado__colores{
+  background-color: #ff6961;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10px;
+}
 
+.listado__colores--amarillo{
+  background-color: #FDFD96 ;
+}
+
+.listado__colores--negro{
+  background-color:var(--negro) ;
+}
+
+.listado__colores--rosita{
+  background-color: pink;
+}
+
+
+.listado__colores--naranja{
+  background-color: #f7bd56 ;
+}
+
+.listado__colores--verde{
+  background-color: #bdecb6;
+}
+
+.listado__colores--cafe{
+  background-color: #8d4925 ;
+}
+
+.listado__colores--gris{
+  background-color: #9c9c9c;
+}
+
+.listado__colores--morado{
+  background-color: #a18594 ;
+}
+
+.listado__colores--azul{
+  background-color: #779ecb;
+}
 .listado__imagen{
     width: 20rem;
 }
@@ -411,5 +453,22 @@ a{
 }
 
 
+/* colores */
 
+.colores__heading{
+  text-align: center;
+}
 
+/* footer */
+
+.footer{
+  border-top: 1px solid var(--grisClaro);
+}
+
+.footer__contenedor{
+  padding: 5rem 0;
+}
+
+.footer__parrafo{
+  text-align: center;
+}
