@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.css">
+
     <title>CODEVELOPERS</title>
 </head>
 <body>
@@ -29,7 +31,13 @@
             <a class="nav__enlace" href="frutas.html">Frutas</a>
             <a class="nav__enlace" href="verduras.html">Verduras</a>
             <a class="nav__enlace" href="alfabeto.html">Alfabeto</a>
+            <label id="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+
           </div>
+       
         </nav><!--Navegacion-->
         <button id="button-menu" class="header__boton">
           <span></span>
@@ -41,10 +49,10 @@
 
       <main class="contenedor">
         <div class="materias">
-            <h2 class="materias__header">Teams</h2>
+            <h2 class="materias__header animate__animated animate__fadeInDown">Teams</h2>
 
 
-            <div class="alfabeto margin-top5 ">
+            <div class="alfabeto margin-top5 animate__animated animate__fadeIn">
                 <h2 class="alfabeto__heading">Alfabeto / Alphabet</h2>
                 <div class="alfabeto__grid ">
                     <div class="alfabeto__imagen">
@@ -64,7 +72,7 @@
 
             <div class="listado ">
                 <div class="listado__grid">
-                    <div class="listado__flex">
+                    <div class="listado__flex animate__animated animate__fadeInLeft">
                         <h2>Numeros / Numbers</h2>
                         <div class="listado__imagen">
                             <img src="img/numeros.png" alt="imagen numeros">
@@ -79,7 +87,7 @@
                         </div>
                     </div><!--Materia-->
     
-                    <div class="listado__flex">
+                    <div class="listado__flex animate__animated animate__fadeInRight">
                         <h2>Colores / Colors</h2>
                         <div class="listado__imagen">
                             <img src="img/colores.png" alt="imagen numeros">
@@ -94,7 +102,7 @@
                         </div>
                     </div><!--Materia-->
     
-                    <div class="listado__flex">
+                    <div class="listado__flex animate__animated animate__bounceIn">
                         <h2>Frutas / Fruts</h2>
                         <div class="listado__imagen">
                             <img src="img/frutas.png" alt="imagen numeros">
@@ -109,7 +117,7 @@
                         </div>
                     </div><!--Materia-->
     
-                    <div class="listado__flex">
+                    <div class="listado__flex animate__animated animate__bounceIn">
                         <h2>Vegetables / Vegetables</h2>
                         <div class="listado__imagen">
                             <img src="img/verduras.png" alt="imagen numeros">
@@ -144,4 +152,5 @@
     
 </body>
 <script  src="js/app.js"></script>
+
 </html>
