@@ -19,6 +19,16 @@
 }
 
 
+body {
+  filter: grayscale(0);
+}
+
+/* Estilos para el modo oscuro */
+body[data-tema="dark"] {
+  filter: grayscale(1);
+}
+
+
 [tema="light"]{
   --color-fuente: #000;
   --color-fondo: #fff;
@@ -55,6 +65,11 @@ body {
 }
 
 /*Globales*/
+
+.video{
+  width: 30rem;
+  height: 20rem;
+}
 
 @media (min-width: 321px) {
   .contenedor {
@@ -593,3 +608,5 @@ a{
 .footer__parrafo{
   text-align: center;
 }
+
+/*Videos*/
